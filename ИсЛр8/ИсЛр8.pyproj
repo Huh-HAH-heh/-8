@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="src\check_db.py" />
+    <Compile Include="src\crud.py" />
     <Compile Include="src\init_db.py" />
     <Compile Include="src\check_integrity.py" />
     <Compile Include="ИсЛр8.py" />
