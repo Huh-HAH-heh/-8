@@ -1,0 +1,11 @@
+[project]
+name = "akvt-db-lab8"
+version = "1.0.0"
+description = "Лабораторная работа №8 по SQLite, группа ИС-31"
+authors = [{name = "Студент ИС-31"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
