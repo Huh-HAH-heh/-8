@@ -117,7 +117,7 @@ def get_by_id(db_path, table_name, record_id):
     return record
 
 
-# === БЛОК ПРОВЕРКИ ВСЕХ ШАГОВ ===
+
 if __name__ == "__main__":
     DB_FILE = Path(__file__).parent.parent / "data" / "college.db"
     
