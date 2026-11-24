@@ -1,7 +1,6 @@
 import sqlite3
-from pathlib import Path  # ИСПРАВЛЕНО: Добавлен обязательный импорт для путей
+from pathlib import Path  
 
-# ИСПРАВЛЕНО: Добавлена буква 'N' в ALLOWED_COLUMNS
 ALLOWED_COLUMNS = {
     "faculties": {"faculty_number", "name", "dean"},
     "groups_table": {"group_number", "specialty_code", "faculty_id"}
@@ -98,7 +97,7 @@ def get_all(db_path, table_name):
         raise ValueError(f"Недопустимое имя таблицы: {table_name}")
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    # ИСПРАВЛЕНО: Убрана лишняя буква 'E' в слове FROM
+
     query = f"SELECT * FROM {table_name};"
     cursor.execute(query)
     records = cursor.fetchall()
