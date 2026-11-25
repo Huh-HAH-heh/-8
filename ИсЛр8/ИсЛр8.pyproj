@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src\app.py" />
     <Compile Include="src\check_db.py" />
     <Compile Include="src\crud.py" />
     <Compile Include="src\init_db.py" />
